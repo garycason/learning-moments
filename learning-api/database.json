@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "cohort": "2023"
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "cohort": "2023"
+    }
+  ],
+  "topics": [
+    { "id": 1, "name": "Functions" },
+    { "id": 2, "name": "Asynchronous Programming" }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Understanding JavaScript Functions",
+      "body": "Functions in JavaScript are one of the fundamental building blocks. Here's how you can declare and use them effectively...",
+      "date": "2023-04-17",
+      "userId": 1,
+      "topicId": 1
+    },
+    {
+      "id": 2,
+      "title": "Exploring Async/Await",
+      "body": "Asynchronous programming can be tricky, but async/await syntax in JavaScript simplifies it. Let's dive deep into how it works...",
+      "date": "2023-04-18",
+      "userId": 2,
+      "topicId": 2
+    }
+  ],
+  "likes": [
+    { "id": 1 ,
+    "postId": 1, 
+    "userId": 2 },
+    { "id": 2,
+    "postId": 2, 
+    "userId": 1 }
+  ]
+}
